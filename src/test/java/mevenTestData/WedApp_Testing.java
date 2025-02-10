@@ -28,7 +28,8 @@ public class WedApp_Testing {
 	public void test2(){
 
             driver.findElement(By.id("email")).sendKeys("Kumaresan123@gmail.com");
-	
+            driver.findElement(By.xpath(""));
+	        driver.close();
 
 	}
 	
