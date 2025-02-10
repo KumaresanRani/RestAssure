@@ -9,7 +9,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class WedApp_Testing {
 
-	
+	 WebDriver driver;
 	@Test
 	public void test1() {
 		
@@ -24,7 +24,13 @@ public class WedApp_Testing {
 		
 		
 	}
+	@Test
+	public void test2(){
+
+            driver.findElement(By.id("email")).sendKeys("Kumaresan123@gmail.com");
 	
+
+	}
 	
 	
 	
